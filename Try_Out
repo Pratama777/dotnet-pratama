@@ -1,0 +1,33 @@
+using System;
+
+namespace dotnet_new_console_test_M_Rizki_P
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Tulis nama Anda : ");            
+            string input = Console.ReadLine();
+            Console.WriteLine($"Hello, my name is {input}.");
+        }
+    }
+        
+    //class GanGen
+    //{
+      //  static bool Genap(int n)
+        //{
+           // return (n%2 == 0);
+        //}
+
+        //public static void numb(String[] args)
+        //{
+          //  Console.WriteLine("Masukkan angka: ");
+           // int n = Convert.ToInt32(Console.ReadLine());
+
+           // if (Genap(n) == true)
+             //   Console.WriteLine($"{n} adalah bilangan Genap.");
+           // else
+             //   Console.WriteLine($"{n} adalah bilangan Ganjil.");
+        //}
+    //}
+}
